@@ -278,5 +278,8 @@ add_theme_support('post-thumbnails');
 add_image_size('homepage-slider', 1600, 514, true);
 
 
-// N{umero de productos a mostar en la tienda / Productos
+// Numero de productos a mostar en la tienda / Productos
 add_filter('loop_shop_per_page', create_function('$cols', 'return 10;'), 20);
+
+
+remove_action('woocommerce_before_main_content','woocommerce_breadcrumb',20);

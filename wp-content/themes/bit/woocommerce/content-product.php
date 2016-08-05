@@ -35,29 +35,28 @@ $miProducto= wc_get_product();
 ?>
 
 <div class="item animated" data-animation="zoomIn">
-                            <div class="item-wrapper">
-                                <div class="post">
-                                    
-                                    <div class="post-medias">
-                                        <figure class="he-2 no-caption">                                        
-                                            <img src="<?php echo $MiProps['url'] ?>" alt="<?php echo $miProducto->get_title(); ?>" />
-                                            <div class="hover-icons">
-                                                <div class="hover-icons-wrapper">
-                                                    <p><?php echo $miProducto->get_title(); ?></p>
-                                                </div>
-                                            </div>
-                                        </figure>
-                                    </div>
-                                    
-                                    <div class="post-info">
-                                        <h2 class="post-title"><a href="<?php echo $miProducto->get_permalink(); ?>"><?php echo $miProducto->get_title(); ?></a></h2>
+    <div class="item-wrapper">
+        <div class="post">
 
-                                        <div class="post-excerpt">
-                                            <p></p>
-                                        </div>
-                                        <a href="<?php echo $miProducto->get_permalink(); ?>" class="more">Leer más</a>
-                                    </div>                                                                        
-                                </div>
-                            </div>
+            <div class="post-medias">
+                <figure class="he-2 no-caption">                                        
+                    <img src="<?php echo $MiProps['url'] ?>" alt="<?php echo $miProducto->get_title(); ?>" />
+                    <div class="hover-icons">
+                        <div class="hover-icons-wrapper">
+                            <p><?php echo $miProducto->get_title(); ?></p>
                         </div>
+                    </div>
+                </figure>
+            </div>
 
+            <div class="post-info">
+                <h2 class="post-title"><a href="<?php echo $miProducto->get_permalink(); ?>"><?php echo $miProducto->get_title(); ?></a></h2>
+
+                <div class="post-excerpt">
+                    <p></p>
+                </div>
+                <a href="<?php echo $miProducto->get_permalink(); ?>" class="more">Leer más</a>
+            </div>                                                                        
+        </div>
+    </div>
+</div>
