@@ -283,3 +283,10 @@ add_filter('loop_shop_per_page', create_function('$cols', 'return 10;'), 20);
 
 
 remove_action('woocommerce_before_main_content','woocommerce_breadcrumb',20);
+
+add_action( 'send_headers', 'add_header_seguridad' );
+function add_header_seguridad() {
+header( 'X-Content-Type-Options: nosniff' );
+header( 'X-Frame-Options: SAMEORIGIN' );
+header( 'X-XSS-Protection: 1;mode=block' );
+}
