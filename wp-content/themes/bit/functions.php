@@ -91,7 +91,7 @@ function bit_widgets() {
     );
     register_sidebar(
             array(
-                'name' => __('NEWSLETTER'),
+                'name' => __('Newsletter'),
                 'id' => 'newsletter',
                 'before_widget' => ' <div class="widget widget-newsletter">',
                 'after_widget' => '</div>',
@@ -280,45 +280,3 @@ add_image_size('homepage-slider', 1600, 514, true);
 
 // N{umero de productos a mostar en la tienda / Productos
 add_filter('loop_shop_per_page', create_function('$cols', 'return 10;'), 20);
-
-
-/*
-
-remove_action('woocommerce_before_shop_loop_item_title', 'woocommerce_template_loop_product_thumbnail', 10);
-function product_thumbnail() {
-    echo '<div class="post-medias">
-                                        <figure class="he-2 no-caption">                                        
-                                            <img src="http://127.0.0.1:8080/tiendabit/wp-content/uploads/2016/07/xcategoria_bit1.jpg.pagespeed.ic.18PS6XoMkN.webp" alt="PRODUCTO" />
-                                            <div class="hover-icons">
-                                                <div class="hover-icons-wrapper">
-                                                    <p>NOMBRE DEL PRODUCTO</p>
-                                                </div>
-                                            </div>
-                                        </figure>
-                                    </div>';
-    
-}
-add_action('woocommerce_before_shop_loop_item_title', 'product_thumbnail', 10);
-
-
-remove_action('woocommerce_shop_loop_item_title', 'woocommerce_template_loop_product_title', 10);
-function template_loop_product_title() {
-    echo '<div class="post-info">
-        <h2 class="post-title"><a href="<?php echo get_post_permalink(); ?>">NOMBRE DEL PRODUCTO</a></h2>';
-    
-}
-add_action('woocommerce_shop_loop_item_title', 'template_loop_product_title', 10);
-
-
-remove_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_product_link_close', 5);
-function template_loop_product_link_close() {
-    echo '<div class="post-excerpt">
-                                            <p><?PHP echo get_the_excerpt(); ?></p>
-                                        </div>
-                                        <a href="<?php echo get_post_permalink(); ?>" class="more">Leer más</a>
-                                    </div>    ';
-    
-}
-add_action('woocommerce_shop_loop_item_title', 'template_loop_product_link_close', 5);
- * 
- */

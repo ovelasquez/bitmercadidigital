@@ -19,7 +19,7 @@
             ?>            
             <div class="item <?php echo $classI; ?>">
                 <div class="item-wrapper">
-                    <a href="<?php echo get_post_permalink(); ?>">
+                    <a href="<?PHP echo get_the_excerpt(); ?>">
                         <figure class="he-center black-white-effect">
                             <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?> " />                            
                         </figure>

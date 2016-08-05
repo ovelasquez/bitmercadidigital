@@ -65,7 +65,7 @@
                                                                                                                                     
     <!-- BEGIN MAP FULLWIDTH --> 
     <section class="section half-section section-hg teal lighten-5">
-        <div class="map" id="map-8" data-markers='{"1":{"lat":10.494088,"lng":-66.877891,"icon":"<?php echo get_template_directory_uri(); ?>/assets/img/map-markers/big-dark.png","title":"Bit Mercado Digital!"},"2":{"lat":10.493793,"lng":-66.875881,"icon":"<?php echo get_template_directory_uri(); ?>/assets/img/map-markers/blue.png","title":"Estación del Metro Sabana Grande"}}'
+        <div class="map" id="map-8" data-markers='{"1":{"lat":10.494088,"lng":-66.877891,"icon":"<?php echo get_template_directory_uri(); ?>/assets/img/map-markers/map-citymarket.png","title":"Bit Mercado Digital!"},"2":{"lat":10.493793,"lng":-66.875881,"icon":"<?php echo get_template_directory_uri(); ?>/assets/img/map-markers/map-metro-sabana-grande.png","title":"Estación del Metro Sabana Grande"}}'
           data-map-style="turquoise" data-plugin-options='{"zoom":16,"lat":10.494088,"lng":-66.877891,"panControl":false,"mapTypeControl":false}'></div>
         <div class="p-30">
           <div class="title">

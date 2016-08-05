@@ -72,11 +72,22 @@
     </section>
     <!-- END FEATURES -->
 
-    <!-- BEGIN MAP FULLWIDTH -->
-    <div class="fullwidth grey lighten-4">
-        <div class="map" id="map-fullwidth" data-map-height="400" data-map-style="blue" data-plugin-options='{"zoom":12,"address":"Calle Unión,Caracas, Distrito Capital, Venezuela","panControl":false,"mapTypeControl":false}'></div>
-    </div>
+    <!-- BEGIN MAP FULLWIDTH --> 
+    <section class="section half-section section-hg teal lighten-5">
+        <div class="map" id="map-8" data-markers='{"1":{"lat":10.494088,"lng":-66.877891,"icon":"<?php echo get_template_directory_uri(); ?>/assets/img/map-markers/map-citymarket.png","title":"Bit Mercado Digital!"},"2":{"lat":10.493793,"lng":-66.875881,"icon":"<?php echo get_template_directory_uri(); ?>/assets/img/map-markers/map-metro-sabana-grande.png","title":"Estación del Metro Sabana Grande"}}'
+          data-map-style="turquoise" data-plugin-options='{"zoom":16,"lat":10.494088,"lng":-66.877891,"panControl":false,"mapTypeControl":false}'></div>
+        <div class="p-30">
+          <div class="title">
+            <h3>Nuestra Oficina Comercial</h3>
+            <p>Centro Comercial CityMaket, Nivel Feria.</p>
+          </div>
+          <p>Cerca de la Estación del Metro de Sabana Grande, Municipio Libertador, Caracas. <br> Venezuela</p>
+                    <p><strong>Teléfono</strong>: +58 212 761 24 81 / 82 91</p>                    
+                    <p><strong>Email</strong>: ventas@bitmercadodigital.com</p>
+        </div>
+      </section>
     <!-- END MAP FULLWIDTH -->
+    
 <?php endif; ?>
 <!-- Archivo de barra lateral por defecto -->
 <?php get_sidebar(); ?>

@@ -4,7 +4,6 @@ get_header();
 $categories = get_the_category();
 $category = $categories[0];
 
-//echo '<pre>';var_dump($category);echo '</pre>';die();
 switch ($category->slug) {
     case 'productos':
         get_template_part('content', 'tpl-productos');

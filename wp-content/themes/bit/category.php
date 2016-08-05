@@ -11,6 +11,9 @@ switch ($category->slug) {
     case 'blog':
         get_template_part('category', 'tpl-blog');
         break;
+    case 'servicios':
+        get_template_part('category', 'tpl-servicios');
+        break;
     case 'preguntas':
         get_template_part('category', 'tpl-preguntas');
         break;

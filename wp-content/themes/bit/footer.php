@@ -17,7 +17,7 @@
                     <h3 class="widget-title">ÚLTIMOS ARTÍCULOS</h3>
                     <div class="owl-carousel owl-theme" data-items-desktop="1" data-items-tablet="1" data-plugin-options='{"nav":false,"dots":true,"smartSpeed":1000,"autoplayTimeout":5000,"autoplay":true,"loop":true,"items":1,"margin":10}'>
                         <?php
-                        $posts = new WP_Query(array('category_name' => 'blog', 'order' => 'ASC', 'posts_per_page' => '2'));
+                        $posts = new WP_Query(array('category_name' => 'blog', 'order' => 'DESC', 'posts_per_page' => '2'));
                         while ($posts->have_posts()) : $posts->the_post();
                             ?> 
                             <div class="item">
@@ -43,7 +43,7 @@
                 <div class="widget widget-products">
                     <h3 class="widget-title">PRODUCTOS MÁS POPULARES</h3>
                     <?php
-                    $posts = new WP_Query(array('category_name' => 'productos-mas-populares', 'order' => 'ASC', 'posts_per_page' => '2'));
+                    $posts = new WP_Query(array('category_name' => 'productos-mas-populares', 'order' => 'DESC', 'posts_per_page' => '2'));
                     $primero = true;
                     while ($posts->have_posts()) : $posts->the_post();                        
                         ?> 
