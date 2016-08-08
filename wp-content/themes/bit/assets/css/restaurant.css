@@ -13,7 +13,7 @@ RESTAURANT / CAFE
 .menu-restaurant li::before, .menu-restaurant li::after {display: table;content:"";clear:both;}
 .menu-restaurant span.clearfix {position: relative;display: block;}
 .menu-restaurant a {display: inline-block;-webkit-transition:all .2s;-moz-transition:all .2s;-o-transition:all .2s;transition:all .2s;}
-.menu-restaurant .menu-line {position: absolute;bottom: 6px; border-bottom: 1px dotted rgba(0,0,0,0.3);margin-left: 0.6rem;margin-right: 0.6rem;}
+.menu-restaurant .menu-line {position: absolute;bottom: 6px; border-bottom: 1px dotted rgba(0,0,0,1);margin-left: 0.6rem;margin-right: 0.6rem;}
 .menu-restaurant .menu-price {font-weight: 600;position: absolute;right: 0;top: 0;}
 .menu-restaurant .menu-title {float: left; font-family: 'Montserrat',arial;text-transform: uppercase;letter-spacing: 1px;}
 .menu-restaurant .menu-subtitle {display: block;float:left; color:#B1B1B1;font-family: 'Satisfy','Open Sans', arial;font-size: 1.2rem;}

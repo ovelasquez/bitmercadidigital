@@ -4,9 +4,9 @@ PORTFOLIO
 
 .section-portfolio {margin-left: 0;margin-right: 0;}
 .porfolio-nav {padding: 2rem 15px;}
-.porfolio-nav a{font-size: 1.1rem;font-weight: 600; color:rgba(0,0,0,0.6);-webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out; transition: all .2s ease-in-out;}
+.porfolio-nav a{font-size: 1.1rem;font-weight: 600; color:rgba(0,0,0,1);-webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out; transition: all .2s ease-in-out;}
 .porfolio-nav a i {font-size: 1.3rem;}
-.porfolio-nav a:hover {color:rgba(0,0,0,0.9);}
+.porfolio-nav a:hover {color:rgba(0,0,0,1);}
 .porfolio-nav a.previous {text-align: left;}
 .porfolio-nav a.next {text-align: right; display: block;}
 .gallery-medium-cover .grid-1 figure {display: block;}
@@ -52,7 +52,7 @@ PORTFOLIO
 .section-portfolio .title {margin-top: 0;}
 .section-portfolio .title h1, .section-portfolio .title h2, .section-portfolio .title h3 {margin-top: 0;}
 .section-portfolio .title h1 {font-size: 1.8rem;margin-bottom: 0;}
-.section-portfolio .title p:not(.subtitle) { margin-top: 1rem;color: rgba(0,0,0,0.4);font-weight: 600;font-size: 1.2rem;}
+.section-portfolio .title p:not(.subtitle) { margin-top: 1rem;color: rgba(0,0,0,1);font-weight: 600;font-size: 1.2rem;}
 .gallery-medium-cover img {width: 100%;}
 
 @media (max-width: 992px) {

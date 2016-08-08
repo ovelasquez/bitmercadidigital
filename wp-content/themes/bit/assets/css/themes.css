@@ -44,7 +44,7 @@ body.dark-skin {background-color: #272727;color:#EDEDED;}
 .dark-skin .widget-twitter .tweets-list li{list-style: none;}
 .dark-skin .widget-twitter .tweets-list {padding-left: 0;}
 .dark-skin #search.nav-search .search-close i {color: #BFBFBF;}
-.dark-skin code {background-color: rgba(0,0,0,0.3);}
+.dark-skin code {background-color: rgba(0,0,0,1);}
 .dark-skin .icon-line a{border:1px solid #515151; color:#C9C9C9 !important;}
 .dark-skin .widget {border-bottom: 2px solid rgba(255,255,255,0.06);}
 .dark-skin .dropcap {color:#fff;}
@@ -55,7 +55,7 @@ body.dark-skin {background-color: #272727;color:#EDEDED;}
 .dark-skin .bg-light, .dark-skin .bg-light p, .dark-skin .bg-white, .dark-skin .bg-white p  {color:#252525;}
 .dark-skin .grey.lighten-4 {background-color: #363636!important;}
 .dark-skin .testimonial .comment {color: rgba(255,255,255,0.6);}
-.dark-skin .img-light .testimonial .comment {color: rgba(0,0,0,0.6);}
+.dark-skin .img-light .testimonial .comment {color: rgba(0,0,0,1);}
 .dark-skin .tp-caption-dark {color:#fff;}
 .dark-skin .form-group label {color:#C9C9C9;}
 .dark-skin .form-group label {color:#C9C9C9;}

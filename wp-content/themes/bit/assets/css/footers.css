@@ -3,7 +3,7 @@ FOOTERS
 */
 
 /* GLOBAL */
-#footer {background: rgba(0,0,0,0.85);color:#fff;letter-spacing: 0.1rem;padding:0;margin:0;font-size: 0.9rem; }
+#footer {background: rgba(0,0,0,1);color:#fff;letter-spacing: 0.1rem;padding:0;margin:0;font-size: 0.9rem; }
 #footer a {color:#A9A9A9; -webkit-transition: all .3s ease-in-out;-moz-transition: all .3s ease-in-out;transition: all .3s ease-in-out;}
 #footer a:hover {color:#E0E0E0}
 #footer.img-cover {min-height: 0;}
@@ -14,7 +14,7 @@ FOOTERS
 #footer .widget .widget-title {margin-top: 0;}
 #footer #footer-main {padding-top:3rem;padding-bottom:3rem; }
 #footer #footer-main.container-fullwidth {padding-left: 130px;padding-right: 130px;}
-#footer #footer-bottom {padding-top:1rem;padding-bottom:1rem;background: rgba(0,0,0,0.5);}
+#footer #footer-bottom {padding-top:1rem;padding-bottom:1rem;background: rgba(0,0,0,1);}
 #footer #footer-bottom .container-fluid {/*margin-left: 30px;margin-right: 30px;*/}
 #footer #footer-bottom .copyright {font-size: 0.8rem;color:#888888;}
 #footer #footer-bottom p {margin-bottom: 0;margin-top:5px;color:#888888;}
@@ -79,7 +79,7 @@ FOOTERS
 }
 
 /* FOOTER REVEAL ON SCROLL */
-.footer-reveal #main-content {position: relative;-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);;webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);-o-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);}
+.footer-reveal #main-content {position: relative;-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,1);;webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,1);-o-box-shadow: 0px 5px 5px 0px rgba(0,0,0,1);box-shadow: 0px 5px 5px 0px rgba(0,0,0,1);}
 .footer-reveal #footer { position: fixed;bottom: 0;top:auto;left: 0;right: 0;z-index: -1;-webkit-transform: translateX(0);transform: translateX(0); webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out;transition: all .4s ease-in-out;}
 .boxed.footer-reveal #footer { max-width: 1240px;margin: auto;}
 .aside-right.footer-reveal.aside-menu-open:not(.aside-hover) #footer {-webkit-transform: translateX(-300px);transform: translateX(-300px);}
@@ -96,17 +96,17 @@ FOOTERS
 #footer.footer-2 .copyright {margin-top: 0.6rem; margin-bottom: 4rem; font-weight: 600;font-size: 0.82rem;color:#4C4C4C;}
 
 /* Footer Hover */
-#footer.footer-hover {position: absolute;bottom:0;left:0; width: 100%;background: rgba(0,0,0,0.35);}
+#footer.footer-hover {position: absolute;bottom:0;left:0; width: 100%;background: rgba(0,0,0,1);}
 #footer.footer-hover #footer-bottom .container {border-top:none;}
 #footer.footer-hover #footer-bottom .copyright { color: rgba(255,255,255,0.6);}
 #footer.footer-hover #footer-bottom .payment-paypal {padding-top: 5px;}
 .left-nav #footer.footer-hover {left:280px;right: 0;width: auto;}
 
 /* Background Color */
-#footer.footer-light {background: rgba(0,0,0,0.1);}
-#footer.footer-light #footer-bottom, #footer.footer-colored #footer-bottom {background: rgba(0,0,0,0.05);}
+#footer.footer-light {background: rgba(0,0,0,1);}
+#footer.footer-light #footer-bottom, #footer.footer-colored #footer-bottom {background: rgba(0,0,0,1);}
 #footer.footer-light .widget .widget-title, #footer.footer-colored .widget .widget-title {color: #121212;}
-#footer.footer-light .widget-links li a, #footer.footer-colored .widget-links li a {color: #747474;border-bottom: 1px solid rgba(0,0,0,0.05);}
+#footer.footer-light .widget-links li a, #footer.footer-colored .widget-links li a {color: #747474;border-bottom: 1px solid rgba(0,0,0,1);}
 #footer.footer-light .widget-twitter .tweets-list li small, #footer.footer-colored .widget-twitter .tweets-list li small {color: rgba(0,0,0,.45);}
 #footer.footer-light .widget-text a, #footer.footer-light .widget-twitter a, #footer.footer-colored .widget-text a, #footer.footer-colored .widget-twitter a {color: #303030 !important;font-weight: 700;}
 #footer.footer-light #footer-bottom .copyright, #footer.footer-colored #footer-bottom .copyright {color: #303030 !important;}
@@ -114,7 +114,7 @@ FOOTERS
 #footer.bg-primary a i {color:#fff;}
 #footer.bg-primary #footer-bottom {background:transparent;}
 #footer.bg-primary .widget .widget-title {color: #fff;}
-#footer.bg-primary .widget-links li a {color: #747474;border-bottom: 1px solid rgba(0,0,0,0.05);}
+#footer.bg-primary .widget-links li a {color: #747474;border-bottom: 1px solid rgba(0,0,0,1);}
 #footer.bg-primary .widget-twitter .tweets-list li small {color: rgba(0,0,0,.45);}
 #footer.bg-primary .widget-text a, #footer.bg-primary .widget-twitter a {color: #303030;}
 #footer.bg-primary #footer-bottom .copyright {color: #fff;}

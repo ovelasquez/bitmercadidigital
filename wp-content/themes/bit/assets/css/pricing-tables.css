@@ -17,7 +17,7 @@ PRICING TABLES
 .price-plan .plan-info .plan-features-list ul {padding-left: 0;}
 .price-plan .plan-info .plan-features-list li {list-style: none;line-height: 2rem;}
 .price-plan .plan-info .plan-features-list li {line-height: 2.7rem;font-size: 1rem;padding:0 1rem;}
-.price-plan .plan-info .plan-features-list li i {color:rgba(0,0,0,0.5);padding-right: 0.8rem;font-size: 0.9rem;}
+.price-plan .plan-info .plan-features-list li i {color:rgba(0,0,0,1);padding-right: 0.8rem;font-size: 0.9rem;}
 .price-plan .plan-info .plan-features-list .not-included {color:#CFCFCF;}
 .price-plan .plan-info .btn {margin-top: 1rem;font-weight: normal;font-size: 0.95rem;}
 .price-plan .plan-btn {text-align: center;padding-top: 1rem;}
@@ -31,8 +31,8 @@ PRICING TABLES
 .price-plan.plan-boxed .price .price-wrapper .price-value {color:#373a3c; font-weight: 500;font-size: 4.5rem;line-height: 4.5rem;}
 .price-plan.plan-boxed .plan-info {display: block; padding: 1rem 0;background:#eaeaea;}
 .price-plan.plan-boxed .plan-info .plan-features-txt {margin-top: 1rem;padding:0 2rem;}
-.price-plan.plan-boxed .plan-info .plan-features-list li:nth-child(even) {background: rgba(0,0,0,0.05);}
-.price-plan.plan-boxed .plan-title {font-size: 1rem;text-transform: uppercase;letter-spacing: 1px;font-weight: 600;padding: 1rem 1.5rem;color:rgba(0,0,0,0.8);}
+.price-plan.plan-boxed .plan-info .plan-features-list li:nth-child(even) {background: rgba(0,0,0,1);}
+.price-plan.plan-boxed .plan-title {font-size: 1rem;text-transform: uppercase;letter-spacing: 1px;font-weight: 600;padding: 1rem 1.5rem;color:rgba(0,0,0,1);}
 .price-plan.plan-boxed .price-wrapper, .price-plan.plan-boxed .price-description {display: inline-block;font-weight: 600;}
 .price-plan.plan-boxed .price .price-wrapper .price-symbol {font-size: 1.5rem;top: -35px;font-weight: normal;}
 
@@ -44,8 +44,8 @@ PRICING TABLES
 /* Primary Style */
 .price-plan.plan-primary {border:2px solid #E2785D;}
 .price-plan.plan-primary .plan-header, .price-plan.plan-primary .plan-info {background:#E2785D;color:#fff; }
-.price-plan.plan-primary .price .price-wrapper .price-symbol, .price-plan.plan-primary .price .price-description {color: rgba(0,0,0,0.5);} 
-.price-plan.plan-primary .plan-info .plan-features-txt {color: rgba(0,0,0,0.5);}
+.price-plan.plan-primary .price .price-wrapper .price-symbol, .price-plan.plan-primary .price .price-description {color: rgba(0,0,0,1);} 
+.price-plan.plan-primary .plan-info .plan-features-txt {color: rgba(0,0,0,1);}
 .price-plan.plan-primary .plan-title, .price-plan.plan-primary .plan-info .plan-features-list {color:#fff;}
 
 /* Dark Style */

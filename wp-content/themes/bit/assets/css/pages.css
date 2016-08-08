@@ -60,7 +60,7 @@ PAGES
 .page-404 .words-wrapper b {width: 100%;}
 .page-404 p {color:#DCDCDC;font-size: 1.5rem;}
 .page-404 form {max-width: 500px;margin:auto;}
-.page-404 input {border:none;border-bottom: 2px solid rgba(0,0,0,0.3);background:none;font-size: 2rem;height: 3rem;}
+.page-404 input {border:none;border-bottom: 2px solid rgba(0,0,0,1);background:none;font-size: 2rem;height: 3rem;}
 .page-404 .video-wrapper {position:relative;}
 .page-404 .video-wrapper ~ .page-404-wrapper {position: absolute;top:0;height: 100%;width:100%;z-index: 20;}
 @media (max-width: 1200px){
@@ -93,7 +93,7 @@ PAGES
 .page-coming-soon iframe, .page-coming-soon video {-webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);-ms-filter: grayscale(100%);-o-filter: grayscale(100%);filter: grayscale(100%);filter: url(grayscale.svg);filter: gray;-webkit-transition: all .3s ease-in-out;-moz-transition: all .3s ease-in-out;transition: all .3s ease-in-out;}
 .page-coming-soon .social-nav{right:40px;position:absolute;top:0}
 .page-coming-soon .social-nav ul{margin:0;padding:0}
-.page-coming-soon .social-nav ul li{cursor:pointer;background:rgba(0,0,0,0.3);display:block;float:left;list-style:none;margin:1px;opacity:.5;padding:10px 10px 5px;-moz-transition: all .4s;-webkit-transition: all .4s;transition: all .4s;}
+.page-coming-soon .social-nav ul li{cursor:pointer;background:rgba(0,0,0,1);display:block;float:left;list-style:none;margin:1px;opacity:.5;padding:10px 10px 5px;-moz-transition: all .4s;-webkit-transition: all .4s;transition: all .4s;}
 .page-coming-soon .social-nav ul li:hover{opacity:1;padding-top: 20px;}
 .page-coming-soon .social-nav ul li i {font-size: 1.3rem;color:#fff;}
 
@@ -120,8 +120,8 @@ PAGES
 .page-maintenance .container > div {display: table-cell;vertical-align: middle;height: 100%;width: 100%;}
 .page-maintenance h1 {font-family: 'Montserrat',arial;font-size: 4.4rem;margin-bottom: 3rem;}
 .page-maintenance h2 {font-size: 1.4rem;font-weight: 300;text-transform: none;}
-.page-maintenance .title.title-line-bottom::after {border-bottom: 2px dashed rgba(0,0,0,0.3);}
-.page-maintenance i {display: block; font-size: 3rem;margin-bottom: 0;color:rgba(0,0,0,0.3);}
+.page-maintenance .title.title-line-bottom::after {border-bottom: 2px dashed rgba(0,0,0,1);}
+.page-maintenance i {display: block; font-size: 3rem;margin-bottom: 0;color:rgba(0,0,0,1);}
 .page-maintenance p {color:rgba(255,255,255,0.6);font-size: 2.2rem;font-family: 'Satisfy',arial;}
 .page-maintenance .title {margin-bottom: 1.2rem;}
 .page-maintenance .maintenance-infos .col-md-4 {margin-top:6rem;padding:0 2rem;}
@@ -130,7 +130,7 @@ PAGES
 .page-maintenance a:hover {color:#fff !important;text-decoration: underline;}
 .theme-dark .page-maintenance .title.title-line-bottom::after {border-bottom: 2px dashed rgba(255,255,255,0.3);}
 .theme-dark .page-maintenance i {color:rgba(255,255,255,0.3);}
-.theme-amber .page-maintenance p {color:rgba(0,0,0,0.5);}
+.theme-amber .page-maintenance p {color:rgba(0,0,0,1);}
 .theme-amber .page-maintenance a {color:#303030;}
 .theme-amber .page-maintenance a:hover {color:#303030 !important;}
 @media (max-width: 1200px){
@@ -159,7 +159,7 @@ PAGES
 
 /* PAGE TERMS & CONDITIONS */
 .section-terms {padding-bottom: 6rem;}
-.section-terms .row {margin-left: 0;margin-right: 0;border-bottom: 2px solid rgba(0,0,0,0.05);padding-top: 2rem; padding-bottom: 3rem;}
+.section-terms .row {margin-left: 0;margin-right: 0;border-bottom: 2px solid rgba(0,0,0,1);padding-top: 2rem; padding-bottom: 3rem;}
 .section-terms .row:last-child {border-bottom: none;}
 .section-terms [class*="col-"] {padding-left: 0;padding-right: 0;}
 .section-terms h3 {font-family: 'Montserrat',arial;text-transform: uppercase;letter-spacing: 1px;font-size: 1.15rem;font-weight: 700;margin-top:0;}
@@ -168,11 +168,11 @@ PAGES
 
 /* PAGE FAQ */
 .section-faq {padding-bottom: 6rem;padding-top: 0;}
-.section-faq .faq-question {padding-bottom: 2rem;padding-top: 2rem; border-bottom: 1px solid rgba(0,0,0,0.1);}
+.section-faq .faq-question {padding-bottom: 2rem;padding-top: 2rem; border-bottom: 1px solid rgba(0,0,0,1);}
 .section-faq .faq-question h4 {font-family: 'Montserrat',arial;margin-bottom: 2rem;font-weight: 500;font-size: 1.2rem;margin-top: 1rem;}
 .section-faq .faq-question p {font-size: 0.95rem;}
 .section-faq .row .faq-question:last-child {border-bottom: none;}
 
 @media (max-width: 768px){
-  .section-faq .row .col-md-6:first-child .faq-question:last-child {border-bottom: 1px solid rgba(0,0,0,0.1);}
+  .section-faq .row .col-md-6:first-child .faq-question:last-child {border-bottom: 1px solid rgba(0,0,0,1);}
 }

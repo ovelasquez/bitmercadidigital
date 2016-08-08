@@ -22,7 +22,7 @@ BUTTONS
 
 /* Button Embossed */
 .btn-embossed, .btn-embossed:hover{-webkit-box-shadow:inset 0 -3px 0 rgba(0,0,0,0.15) !important;box-shadow:inset 0 -2px 0 rgba(0,0,0,0.15)!important;}
-.btn-embossed:active{-webkit-box-shadow:inset 0 2px 0 rgba(0,0,0,0.15);box-shadow:inset 0 2px 0 rgba(0,0,0,0.15)}
+.btn-embossed:active{-webkit-box-shadow:inset 0 2px 0 rgba(0,0,0,1);box-shadow:inset 0 2px 0 rgba(0,0,0,0.15)}
 
 /* Buttton Sizes */
 .btn-sm{height: auto;font-size:.8rem;line-height:.9rem;padding:8px 14px;}

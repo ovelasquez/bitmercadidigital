@@ -11,7 +11,7 @@ textarea.form-control {height: auto;}
 .form-group.row {margin-bottom: 0;}
 .form-group.row > [class*=col-] {margin-bottom: 15px;}
 .form-group label {color:#3B3B3B; font-size: 0.9rem; text-transform: uppercase;font-weight: 700;letter-spacing: 1px;padding-right: 6px;}
-.form-group small  {font-size: 0.8rem;color:rgba(0,0,0,0.4);font-weight: 700;}
+.form-group small  {font-size: 0.8rem;color:rgba(0,0,0,1);font-weight: 700;}
 .required:after {font-size: 1.5rem;color: #CECECE;content: "*";position: absolute;right: 1rem;top: 0;}
 .form-group.required:after {right:0;}
 input::-webkit-input-placeholder {color:#C0C0C0 !important;}
@@ -25,7 +25,7 @@ textarea:-ms-input-placeholder {color:#C0C0C0 !important;}
 input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px white inset !important;}
 .form-group.form-grouped {border: 2px solid #EDEDED;overflow: hidden; padding:6px 11px 5px 11px;background:#fff;}
 .form-group.form-grouped.focused {border-color: #E2785D;}
-.form-group.form-grouped.disabled {background: #E8E8E8; color: rgba(0,0,0,0.2);}
+.form-group.form-grouped.disabled {background: #E8E8E8; color: rgba(0,0,0,1);}
 .form-group.form-grouped.disabled input::-webkit-input-placeholder {color:#CDCDCD !important;}
 .form-group.form-grouped.disabled input:-moz-placeholder {color:#CDCDCD !important;}
 .form-group.form-grouped.disabled input::-moz-placeholder {color:#CDCDCD !important;}
@@ -44,7 +44,7 @@ input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px white inset !importan
 /* Append / Prepend Icon */
 .append-icon, .prepend-icon{position: relative;}
 .append-icon input{padding-right:2.5rem !important;}
-.append-icon i, .prepend-icon i, .append-icon .btn {color:rgba(0,0,0,0.2);font-size:1.1rem;font-weight: bold; height:34px;line-height:34px;position:absolute;text-align:center;top:0;width:34px;}
+.append-icon i, .prepend-icon i, .append-icon .btn {color:rgba(0,0,0,1);font-size:1.1rem;font-weight: bold; height:34px;line-height:34px;position:absolute;text-align:center;top:0;width:34px;}
 .append-icon i, .append-icon .btn {left:auto;right:0;}
 .prepend-icon i{left: 0;right:auto;}
 .prepend-icon input {padding-left:2.5rem !important;}
@@ -65,7 +65,7 @@ input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px white inset !importan
 .form-group.form-grouped > .input-sm {padding: 0;height: 16px;line-height: 16px;}
 .form-group.form-grouped > .input-lg {height: 34px; line-height:34px;}
 .form-group .label-lg {font-size: 1rem;}
-.form-group .label-sm {color:rgba(0,0,0,0.45);font-size: 0.95rem;}
+.form-group .label-sm {color:rgba(0,0,0,1);font-size: 0.95rem;}
 
 /* Select Input */
 .select2-container--default .select2-selection--single {height: 34px;border: 2px solid #EDEDED;-webkit-border-radius: 0 !important;-moz-border-radius: 0 !important;border-radius: 0 !important;}
@@ -76,7 +76,7 @@ input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px white inset !importan
 .select2-container--default .select2-selection--single .select2-selection__rendered {line-height: 32px;}
 .select2-container .select2-selection--single .select2-selection__rendered {padding-right: 23px;}
 .select2-search--dropdown {padding: 0 0 8px 0;}
-.select2-container--default .select2-results__option--highlighted[aria-selected] {background-color: rgba(0,0,0,0.08);color:#121212;}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {background-color: rgba(0,0,0,1);color:#121212;}
 .select2-container--default.select2-container--open.select2-container--above .select2-selection--single, .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple  { border: 2px solid #E2785D;}
 .select2-container--default.select2-container--focus .select2-selection--multiple { border: 2px solid #E2785D;}
 .select2-container--default .select2-selection--multiple .select2-selection__choice {border-radius: 0; background: #E2785D;border: none; color: #fff;font-size: 85%;}
@@ -156,7 +156,7 @@ input[type="radio"] + label::after,input[type="checkbox"] + label::after {backgr
 .no-js .switcher{display:none}
 .switcher input[type="radio"] + label::before, .switcher input[type="radio"] + label::after {display: none;}
 .switcher input[type="radio"] + label, .switcher input[type="checkbox"] + label {padding-left: 0;font-size: 0.82rem;font-weight: 600;}
-.nav-light .switcher .fieldset{border:1px solid rgba(0,0,0,0.1);}
+.nav-light .switcher .fieldset{border:1px solid rgba(0,0,0,1);}
 .nav-light .switcher label {color:#121212;}
 
 /* Register */

@@ -89,7 +89,7 @@ figure.he-2.caption-center figcaption p, figure.he-2.caption-center figcaption h
 figure.he-2.caption-center figcaption p {margin-bottom: 0;}
 figure.he-2.caption-center figcaption h3, figure.he-2.caption-center figcaption h4 {margin-bottom: 0.8rem;text-transform: uppercase;}
 figure.he-2.caption-center figcaption h4 {font-size: 1rem;line-height: 1.2;margin-bottom: 0.3rem;}
-figure.he-2.caption-center figcaption p {font-size: 0.9rem;font-weight: normal;color: rgba(0,0,0,0.7);}
+figure.he-2.caption-center figcaption p {font-size: 0.9rem;font-weight: normal;color: rgba(0,0,0,1);}
 figure.he-2.caption-center .hover-icons .hover-icons-wrapper {margin-top:-32px;}
 figure.he-2.caption-visible figcaption {}
 figure.he-2.no-caption figcaption, figure.he-2.caption-visible figcaption, figure.he-2.caption-visible h3,figure.he-2.caption-visible h4 {margin-bottom: 0; -webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}

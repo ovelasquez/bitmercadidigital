@@ -3,7 +3,7 @@ WIDGETS
 */
 
 /* General */
-.widget {border-bottom: 2px solid rgba(0,0,0,0.06);padding: 2.5rem 0;}
+.widget {border-bottom: 2px solid rgba(0,0,0,1);padding: 2.5rem 0;}
 .widget:first-child {padding-top: 0;}
 .widget:last-child {border:none;}
 .widget ul {padding-left: 0;}
@@ -18,7 +18,7 @@ WIDGETS
 .widget-twitter .tweets-list li a {color:#E2785D;}
 .widget-twitter .tweets-list li a:hover {text-decoration: underline;}
 .widget-twitter .tweets-list li img {position: absolute;top:1rem;left:-40px;width: 40px;border-radius: 50%;}
-.widget-twitter .tweets-list li small {display: block; color:rgba(0,0,0,0.45);font-size: 0.85rem;font-weight: 600;}
+.widget-twitter .tweets-list li small {display: block; color:rgba(0,0,0,1);font-size: 0.85rem;font-weight: 600;}
 @media (max-width: 1500px){
   .sidebar-left .widget-twitter .tweets-list li img, .sidebar-right .widget-twitter .tweets-list li img {display: none;}
   .sidebar-left .widget-twitter .tweets-list, .sidebar-right .widget-twitter .tweets-list {padding-left: 0;}
@@ -28,7 +28,7 @@ WIDGETS
 .widget-products .product {border:none;margin: 0;background: none;padding-bottom: 0 !important;}
 .widget-products .product img {border-radius: 50%;max-width: 65px;}
 .widget-products .product .product-title {font-size: 1rem; font-weight: 600;display: inline-block;margin-bottom: 0;margin-top: 8px;}
-.widget-products .product .product-info {color:rgba(0,0,0,0.5);font-weight: 500; font-size: 0.9rem;padding:0;}
+.widget-products .product .product-info {color:rgba(0,0,0,1);font-weight: 500; font-size: 0.9rem;padding:0;}
 .widget-products .product .product-info .product-price, .widget-products .product .product-info .product-rating {height: 30px;line-height: 30px;display: inline-block;}
 .widget-products .product .product-info .product-price {font-size: 1rem;float: left;}
 .widget-products .product .product-info .product-rating {padding-left: 1rem;opacity: 0;-webkit-transition: opacity .2s;-moz-transition: opacity .2s;transition: opacity .2s;}
@@ -69,9 +69,9 @@ WIDGETS
 /* Links Widget */
 .widget-links ul {margin-bottom: 0;}
 .widget-links li {list-style: none;padding: 0.3rem;}
-.widget-links li a {color:rgba(0,0,0,0.9);-webkit-transition: all .3s ease-in-out;-moz-transition: all .3s ease-in-out;transition: all .3s ease-in-out;}
+.widget-links li a {color:rgba(0,0,0,1);-webkit-transition: all .3s ease-in-out;-moz-transition: all .3s ease-in-out;transition: all .3s ease-in-out;}
 .widget-links li a:hover {color:#E2785D;}
-.widget-links li a::before {content: "\f101";font-family: "FontAwesome";padding-right: .5rem;font-size: .9rem;color: rgba(0,0,0,0.6);}
+.widget-links li a::before {content: "\f101";font-family: "FontAwesome";padding-right: .5rem;font-size: .9rem;color: rgba(0,0,0,1);}
 
 /* Tags Widget */
 .widget .tags a, .tags a,.tagcloud a {padding: 3px 10px;margin:0 7px 7px 0;display: inline-block; border:2px solid rgba(0,0,0,.1);text-transform: uppercase;letter-spacing: 1px; font-size: .85rem!important;-moz-transition: all .2s linear;-o-transition: all .2s linear;-webkit-transition: all .2s linear;transition: all .2s linear;}
@@ -80,7 +80,7 @@ WIDGETS
 /* Color Filters Widget */
 .widget-colors-filter ul.colors-filter {margin-left: 0;margin-bottom: 0;padding-top: 1rem;}
 .widget-colors-filter ul.colors-filter > li {padding: 0;list-style: none;display: inline-block;}
-.widget-colors-filter ul.colors-filter > li a {display: inline-block; cursor: pointer;border:2px solid rgba(0,0,0,0.1);height: 34px;width: 34px;margin-right: 6px;margin-bottom: 6px; -webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;-webkit-transition: all .25s;  -moz-transition: all .25s;  transition: all .25s;}
+.widget-colors-filter ul.colors-filter > li a {display: inline-block; cursor: pointer;border:2px solid rgba(0,0,0,1);height: 34px;width: 34px;margin-right: 6px;margin-bottom: 6px; -webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;-webkit-transition: all .25s;  -moz-transition: all .25s;  transition: all .25s;}
 .widget-colors-filter ul.colors-filter > li.grayscale a {background: #DBDBDB !important;}
 
 /* Flickr Widget */
@@ -102,12 +102,12 @@ WIDGETS
 .widget-posts .post:last-child {margin-bottom: 0;}
 .widget-posts .post img {border-radius: 3px;max-width: 65px;}
 .widget-posts .post .post-title {font-size: 1rem; font-weight: 600;display: inline-block;margin-bottom: 10px;margin-top: 8px;}
-.widget-posts .post .post-meta {color:rgba(0,0,0,0.5);font-weight: 500; font-size: 0.9rem;}
+.widget-posts .post .post-meta {color:rgba(0,0,0,1);font-weight: 500; font-size: 0.9rem;}
 
 /* Comments Widget */
 .widget-comments .comment {margin-bottom: 1rem;}
 .widget-comments .comment p {font-family: 'Open Sans',arial !important; overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin-bottom: 0;font-size: 1.1rem;line-height: 20px;}
-.widget-comments .comment p.comment-meta {color:rgba(0,0,0,0.5);font-weight: 600;font-size: 0.8em;margin-top: 0.3rem;letter-spacing: 1px;}
+.widget-comments .comment p.comment-meta {color:rgba(0,0,0,1);font-weight: 600;font-size: 0.8em;margin-top: 0.3rem;letter-spacing: 1px;}
 
 /* Select Filters Widget */
 .widget.select-filters .select-filter {margin: 0 0 1.5rem 0;}

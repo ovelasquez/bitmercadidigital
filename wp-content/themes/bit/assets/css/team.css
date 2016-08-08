@@ -24,7 +24,7 @@ TEAM
 /* Image Side / Text Side */
 .team.team-aside {position: relative;display: table;height: 100%;margin-bottom: -1px;}
 .team.team-aside .team-img {display: table-cell;width: 50%;}
-.team.team-aside .team-info {color:rgba(0,0,0,0.6);display: table-cell;height: 100%;width: 50%;vertical-align: top;padding: 1rem;overflow: hidden;}
+.team.team-aside .team-info {color:rgba(0,0,0,1);display: table-cell;height: 100%;width: 50%;vertical-align: top;padding: 1rem;overflow: hidden;}
 .team.team-aside .team-info .team-name {padding-top: 0;}
 .team.team-aside.team-left .team-info {text-align: left;padding-right: 1rem; position: relative;}
 .team.team-aside.team-right .team-info {text-align: right;padding-left: 1rem; position: relative;}
