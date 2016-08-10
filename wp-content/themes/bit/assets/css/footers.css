@@ -3,7 +3,7 @@ FOOTERS
 */
 
 /* GLOBAL */
-#footer {background: rgba(0,0,0,1);color:#fff;letter-spacing: 0.1rem;padding:0;margin:0;font-size: 0.9rem; }
+#footer {background: rgba(0,0,0,.85);color:#fff;letter-spacing: 0.1rem;padding:0;margin:0;font-size: 0.9rem; }
 #footer a {color:#A9A9A9; -webkit-transition: all .3s ease-in-out;-moz-transition: all .3s ease-in-out;transition: all .3s ease-in-out;}
 #footer a:hover {color:#E0E0E0}
 #footer.img-cover {min-height: 0;}
