@@ -639,7 +639,7 @@ section.third-section figure {height: 100%;}
 .feature-box.feature-sm h2 {font-size: 1rem;}
 .feature-box.feature-sm h3 {font-size: 0.8rem;}
 .feature-box.feature-sm p {font-size: 0.9rem;}
-.feature-box .icon.icon-gray {background: rgba(0,0,0,1);color:rgba(0,0,0,1);}
+.feature-box .icon.icon-gray {background: rgba(0,0,0,.08);color:rgba(0,0,0,.8);}
 .feature-box:hover .icon.icon-gray {background: #383838;color:#fff;}
 .feature-box .icon.icon-dark {background: #232323;}
 .feature-box .icon.icon-line, .section-dark .feature-box .icon.icon-line {background: none;border:1px solid rgba(0,0,0,1);color:rgba(0,0,0,1);}
