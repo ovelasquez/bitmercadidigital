@@ -85,7 +85,7 @@ do_action('woocommerce_before_main_content');
         <div class="row">
             <div id="blog-main" class="col-hg-12 col-lg-12">
                 <div class="blog-wrapper">
-                    <div class="posts masonry masonry-layout grid grid-3">
+                    <div class="posts masonry masonry-layout grid grid-4">
 
                         <?php  woocommerce_product_loop_start(); ?>
 

@@ -26,11 +26,9 @@ if (empty($product) || !$product->is_visible()) {
     return;
 }
 
-
 $MiProps = wc_get_product_attachment_props(get_post_thumbnail_id(), $product);
 $miProducto= wc_get_product();
  
-
 //echo $product['post_title'];
 ?>
 
