@@ -1447,7 +1447,8 @@ thead .fc-head-container {padding-top: 1rem;padding-bottom: 0.8rem;background: #
 }
 /*Circulo*/
 .circulo {width: 225px;height: 225px;-moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;background: #0070CD; opacity: 0.6; filter: alpha(opacity=60); /* For IE8 and earlier */ position:absolute;}
-.current-menu-parent a, .current-post-parent a, .current-menu-item a {border-top: #94d500 2px solid}
+.current-menu-parent > a, .current-post-parent > a, .current-menu-item > a {border-top: #94d500 2px solid}
+.navRRSS  .current-menu-parent > a, .navRRSS .current-post-parent > a, .navRRSS  .current-menu-item > a {border-top: 0px solid; color: #94d500 !important; }
 .es_textbox_class {    font-weight: normal;
                        padding: 9px 12px;
                        height: 34px;
