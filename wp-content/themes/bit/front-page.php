@@ -54,7 +54,7 @@
                         </div>
                         <a href="<?php echo get_post_permalink(); ?>"><h3 class="c-white"  style="font-size: 2.5rem;"><?php the_title(); ?> </h3></a>
                         
-                        <p style=" font-size: 1.5em;   font-weight: bold;"><?PHP echo get_the_excerpt(); ?></p>
+                        <p style=" font-size: 1.5em; color: #FFF; "><?PHP echo get_the_excerpt(); ?></p>
                     </div>
                 </div>
                 <?php

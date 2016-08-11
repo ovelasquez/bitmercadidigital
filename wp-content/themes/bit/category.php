@@ -4,10 +4,7 @@
 $category = get_queried_object();
 $catParID = $category->parent;
 
-switch ($category->slug) {
-    case 'productos':
-        get_template_part('category', 'tpl-productos');
-        break;
+switch ($category->slug) {   
     case 'blog':
         get_template_part('category', 'tpl-blog');
         break;

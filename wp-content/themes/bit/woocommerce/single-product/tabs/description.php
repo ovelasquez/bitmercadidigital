@@ -27,7 +27,7 @@ $heading = esc_html(apply_filters('woocommerce_product_description_heading', __(
 <?php if ($heading): ?>
 
     <div class="tab-content">
-        <div class="tab-pane fade active in" id="description" role="tabpanel">
+        <div class="tab-pane fade active in" id="info" role="tabpanel">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
