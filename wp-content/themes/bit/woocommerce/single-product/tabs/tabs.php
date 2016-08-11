@@ -26,12 +26,11 @@ if (!defined('ABSPATH')) {
  * @see woocommerce_default_product_tabs()
  */
 $tabs = apply_filters('woocommerce_product_tabs', array());
-//echo '<pre>'; var_dump($tabs); echo '</pre>'; 
 
 if (!empty($tabs)) :
     ?>
 
-    <div class=" m-b-10 product-info">
+
         <ul class="product-tabs" role="tablist">
             <?php
             $i = 1;

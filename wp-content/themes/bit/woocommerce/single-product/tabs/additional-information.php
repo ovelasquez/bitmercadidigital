@@ -15,29 +15,27 @@
  * @package       WooCommerce/Templates
  * @version       2.0.0
  */
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly
 }
 
 global $product;
 
-$heading = apply_filters( 'woocommerce_product_additional_information_heading', __( 'Additional Information', 'woocommerce' ) );
-
+$heading = apply_filters('woocommerce_product_additional_information_heading', __('Additional Information', 'woocommerce'));
 ?>
 
-<?php if ( $heading ): ?>
-<!--	<h2><?php echo $heading; ?></h2>-->
+<?php if ($heading): ?>
+    <!--	<h2><?php echo $heading; ?></h2>-->
 <?php endif; ?>
 
 
 
-        <div class="tab-pane fade" id="additional_information" role="tabpanel">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                      <?php $product->list_attributes(); ?>
-                    </div>
-                  </div>
-                </div>
-              </div>
+<div class="tab-pane fade" id="additional_information" role="tabpanel">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+<?php $product->list_attributes(); ?>
+            </div>
+        </div>
+    </div>
+</div>

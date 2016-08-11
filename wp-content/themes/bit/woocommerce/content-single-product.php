@@ -63,28 +63,33 @@ if (post_password_required()) {
                      * @hooked woocommerce_template_single_add_to_cart - 30
                      * @hooked woocommerce_template_single_meta - 40
                      * @hooked woocommerce_template_single_sharing - 50
-                     */                    
+                     */
                     do_action('woocommerce_single_product_summary');
                     ?>
 
                 </div><!-- .summary -->
 
-                <?php
-                /**
-                 * woocommerce_after_single_product_summary hook.
-                 *
-                 * @hooked woocommerce_output_product_data_tabs - 10
-                 * @hooked woocommerce_upsell_display - 15
-                 * @hooked woocommerce_output_related_products - 20
-                 */
-                do_action('woocommerce_after_single_product_summary');
-                ?>
 
-                <meta itemprop="url" content="<?php the_permalink(); ?>" />
 
             </div>
         </div>
+        <div class="product-info" style="clear: both;padding: 20px 0px;">
+            <?php
+            /**
+             * woocommerce_after_single_product_summary hook.
+             *
+             * @hooked woocommerce_output_product_data_tabs - 10
+             * @hooked woocommerce_upsell_display - 15
+             * @hooked woocommerce_output_related_products - 20
+             */
+            do_action('woocommerce_after_single_product_summary');
+            ?>
+
+            <meta itemprop="url" content="<?php the_permalink(); ?>" />
+
+        </div>
     </div>
 </div><!-- #product-<?php the_ID(); ?> -->
+
 
 <?php do_action('woocommerce_after_single_product'); ?>
