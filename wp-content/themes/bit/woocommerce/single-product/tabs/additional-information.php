@@ -34,7 +34,7 @@ $heading = apply_filters('woocommerce_product_additional_information_heading', _
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
-<?php $product->list_attributes(); ?>
+                <?php $product->list_attributes(); ?>
             </div>
         </div>
     </div>

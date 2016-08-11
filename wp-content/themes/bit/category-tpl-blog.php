@@ -48,12 +48,9 @@
                                     </div>
                                     <div class="post-info">
                                         <h2 class="post-title"><a href="<?php echo get_post_permalink(); ?>"><?php the_title(); ?></a></h2>
-                                        <ul class="post-meta">
-                                            <!--                                            <li>
-                                                                                            by <a href="#">Admin</a>
-                                                                                        </li>-->
+                                        <ul class="post-meta">                                           
                                             <li>
-                                                Publicación:   <time datatime="<?php the_time('Y-m-j'); ?>"><?php the_time('j F, Y'); ?></time>
+                                                Publicación: <time datatime="<?php the_time('Y-m-j'); ?>"><?php the_time('j F, Y'); ?></time>
                                             </li>
                                         </ul>
                                         <div class="post-excerpt">
@@ -69,8 +66,7 @@
                     wp_reset_query();
                     ?>       
                 </div>
-
-                <nav class="pagination-wrapper">                    
+<!--                <nav class="pagination-wrapper">                    
                     <ul class="pagination">
                         <li class="active"><a href="#">1</a></li>
                         <li><a href="#">2</a></li>
@@ -83,17 +79,13 @@
                             </a>
                         </li>
                     </ul>
-                </nav>
+                </nav>-->
             </div>
         </div>
-
-
         <div class="sidebar-right col-hg-3 col-lg-4">
             <div class="sidebar-wrapper">  
-
                 <?php dynamic_sidebar('newsletter'); ?> 
                 <?php dynamic_sidebar('tags'); ?> 
-
                 <div class="widget widget-posts">
                     <h3 class="widget-title"><a href="blog-single-left">Artículos Populares</a></h3>
                     <?PHP
