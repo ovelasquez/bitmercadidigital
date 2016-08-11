@@ -1,6 +1,6 @@
 <?php 
 get_header();
-//setPostViews(get_the_ID());
+setPostViews(get_the_ID());
 $categories = get_the_category();
 $category = $categories[0];
 

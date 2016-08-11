@@ -282,11 +282,36 @@ add_image_size('homepage-slider', 1600, 514, true);
 add_filter('loop_shop_per_page', create_function('$cols', 'return 10;'), 20);
 
 
-remove_action('woocommerce_before_main_content','woocommerce_breadcrumb',20);
+remove_action('woocommerce_before_main_content', 'woocommerce_breadcrumb', 20);
 
-add_action( 'send_headers', 'add_header_seguridad' );
+add_action('send_headers', 'add_header_seguridad');
+
 function add_header_seguridad() {
-header( 'X-Content-Type-Options: nosniff' );
-header( 'X-Frame-Options: SAMEORIGIN' );
-header( 'X-XSS-Protection: 1;mode=block' );
+    header('X-Content-Type-Options: nosniff');
+    header('X-Frame-Options: SAMEORIGIN');
+    header('X-XSS-Protection: 1;mode=block');
+}
+
+function getPostViews($postID) {
+    $count_key = 'post_views_count';
+    $count = get_post_meta($postID, $count_key, true);
+    if ($count == '') {
+        delete_post_meta($postID, $count_key);
+        add_post_meta($postID, $count_key, '0');
+        return "0 View";
+    }
+    return $count . ' Views';
+}
+
+function setPostViews($postID) {
+    $count_key = 'post_views_count';
+    $count = get_post_meta($postID, $count_key, true);
+    if (!is_numeric($count)) {
+        $count = 0;
+        delete_post_meta($postID, $count_key);
+        add_post_meta($postID, $count_key, '0');
+    } else {
+        $count++;
+        update_post_meta($postID, $count_key, $count);
+    }
 }

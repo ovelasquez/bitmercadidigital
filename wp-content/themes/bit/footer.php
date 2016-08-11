@@ -50,10 +50,10 @@
 
                         <div class="media product <?PHP echo ($primero) ? "p-t-0" : ""; ?>">
                             <div class="pull-left">
-                                <a href="<?php echo get_post_permalink(); ?>"> <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="img-fluid"> </a>
+                                <a href="<?PHP echo get_the_excerpt(); ?>"> <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="img-fluid"> </a>
                             </div>
                             <div class="media-body">
-                                <a class="product-title" href="<?php echo get_post_permalink(); ?>"><?php the_title(); ?></a>                                
+                                <a class="product-title" href="<?PHP echo get_the_excerpt(); ?>"><?php the_title(); ?></a>                                
                             </div>
                         </div>
                         <?php

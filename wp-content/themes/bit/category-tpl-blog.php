@@ -53,7 +53,7 @@
                                                                                             by <a href="#">Admin</a>
                                                                                         </li>-->
                                             <li>
-                                                Publicación:  <a href="#"><?php the_date(); ?></a>
+                                                Publicación:   <time datatime="<?php the_time('Y-m-j'); ?>"><?php the_time('j F, Y'); ?></time>
                                             </li>
                                         </ul>
                                         <div class="post-excerpt">
@@ -95,40 +95,31 @@
                 <?php dynamic_sidebar('tags'); ?> 
 
                 <div class="widget widget-posts">
-                    <h3 class="widget-title"><a href="blog-single-left">Popular Posts</a></h3>
-                    <div class="media post">
-                        <div class="pull-left">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/nature/small-1.jpg" alt="nature" class="img-fluid">
-                        </div>
-                        <div class="media-body">
-                            <a class="post-title" href="blog-single-left">Discover our community</a>
-                            <div class="post-meta">
-                                By <a href="#">Mike Fields</a> 3 April
+                    <h3 class="widget-title"><a href="blog-single-left">Artículos Populares</a></h3>
+                    <?PHP
+                    $args = array(                       
+                        'orderby' => 'meta_value_num',
+                        'meta_key' => 'post_views_count',
+                    );
+                    $posts = new WP_Query($args);
+                    
+                    while ($posts->have_posts()) : $posts->the_post();
+                        ?>
+                        <div class="media post">
+                            <div class="pull-left">                                
+                                <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="img-fluid"/>
+                            </div>
+                            <div class="media-body">
+                                <a class="post-title" href="<?php echo get_post_permalink(); ?>"><?php the_title(); ?></a>
+                                
                             </div>
                         </div>
-                    </div>
-                    <div class="media post">
-                        <div class="pull-left">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/nature/small-2.jpg" alt="nature" class="img-fluid">
-                        </div>
-                        <div class="media-body">
-                            <a class="post-title" href="blog-single-left">Responsive Design</a>
-                            <div class="post-meta">
-                                By <a href="#">Bryan Gray</a> 3 April
-                            </div>
-                        </div>
-                    </div>
-                    <div class="media post">
-                        <div class="pull-left">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/nature/small-3.jpg" alt="nature" class="img-fluid">
-                        </div>
-                        <div class="media-body">
-                            <a class="post-title" href="blog-single-left">New CSS Rule Coming</a>
-                            <div class="post-meta">
-                                By <a href="#">Vanessa Bone</a> 26 June
-                            </div>
-                        </div>
-                    </div>
+                        <?php
+                    endwhile;
+                    wp_reset_query();
+                    ?>       
+
+
                 </div>                
             </div>
         </div>
