@@ -424,7 +424,7 @@ tp-caption.Team-Thumb,.Team-Thumb{color:rgba(255,255,255,1.00);font-size:20px;li
 .tp-caption.ContentZoom-Button,.ContentZoom-Button,.tp-caption.ContentZoom-ButtonClose,.ContentZoom-ButtonClose,.tp-caption.Newspaper-Title,.Newspaper-Title,
 .tp-caption.Newspaper-Subtitle,.Newspaper-Subtitle,.tp-caption.Newspaper-Button,.Newspaper-Button,.tp-caption.Restaurant-Cursive, .Restaurant-Cursive,
 .revtp-searchform input[type="submit"],.revtp-form input[type="submit"],
-.tp-caption.NotGeneric-Title, .NotGeneric-Title{font-family: inherit;}
+.tp-caption.NotGeneric-Title, .NotGeneric-Title{font-family: 'Harabara';}
 .forcefullwidth_wrapper_tp_banner {overflow-x: hidden;}
 .erinyen .tp-tab-title {color:#E2785D;}
 .tp-caption-important {text-transform: uppercase;letter-spacing: 1px;font-weight: 600;}
@@ -434,7 +434,7 @@ tp-caption.Team-Thumb,.Team-Thumb{color:rgba(255,255,255,1.00);font-size:20px;li
 .caption-dark {color:#2C2C2C;}
 .tp-caption-subtitle.caption-dark {color:#737373;}
 .caption-dark.tp-caption-subtitle.subtitle-serif {color:#5B5B5B;}
-.tp-caption-title {font-family: 'Montserrat';text-transform: uppercase;letter-spacing: 1px;font-weight: 600;}
+.tp-caption-title {font-family: 'Harabara';text-transform: uppercase;letter-spacing: 1px;font-weight: 600;}
 .forcefullwidth_wrapper_tp_banner {overflow: hidden;}
 .tp-caption-wedding {font-family: 'Satisfy','Open Sans', arial !important;text-transform: none !important;font-weight: 100;}
 #rev_slider {display: none;}

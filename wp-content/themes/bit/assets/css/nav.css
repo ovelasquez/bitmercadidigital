@@ -223,7 +223,7 @@ ul.menu-icons > li a {height: 60px;font-size:0.85rem;font-weight:400;text-transf
 .header-dark #main-menu ul > li:not(.mega-menu) > ul, #main-navigation.submenu-dark #main-menu ul > li:not(.mega-menu) > ul, .header-dark .main-menu ul > li:not(.mega-menu) > ul, #main-navigation.submenu-dark .main-menu ul > li:not(.mega-menu) > ul { box-shadow: 2px 1px 4px 1px rgba(0,0,0,.06);}
 .header-dark #main-menu .mega-menu-content > ul:after, #main-navigation.submenu-dark #main-menu .mega-menu-content > ul:after, .header-dark .main-menu .mega-menu-content > ul:after, #main-navigation.submenu-dark .main-menu .mega-menu-content > ul:after {border-left:1px solid rgba(255,255,255,0.07);}
 .header-transparent.topnav-top #header #main-navigation {background: transparent;}
-body:not(.topnav-top):not(.header-scroll-transparent):not(.dark-skin) #main-navigation > .main-nav-wrapper {border-bottom: 1px solid rgba(0,0,0,1);}
+body:not(.topnav-top):not(.header-scroll-transparent):not(.dark-skin) #main-navigation > .main-nav-wrapper {border-bottom: 1px solid rgba(0,0,0,0.1);}
 .header-transparent.topnav-top .toggle-menu span:not(.menu-label), .header-transparent.topnav-top .toggle-menu span:not(.menu-label)::before,.header-transparent.topnav-top .toggle-menu span:not(.menu-label)::after, .header-scroll-transparent:not(.topnav-top) .toggle-menu span:not(.menu-label), .header-scroll-transparent:not(.topnav-top) .toggle-menu span:not(.menu-label)::before,.header-scroll-transparent:not(.topnav-top) .toggle-menu span:not(.menu-label)::after {background: #fff;}
 .header-transparent.topnav-top #main-navigation #main-menu > ul > li > a, .header-transparent.topnav-top #main-navigation .main-menu > ul > li > a, .header-transparent.topnav-top #main-navigation .nav-right i, .header-transparent.header-scroll-transparent #main-navigation .nav-right i, .header-transparent.topnav-top #main-navigation .tools-btn span {color:#fff;}
 .header-transparent.topnav-top #main-navigation #main-menu > ul > li.current > a, .header-transparent.topnav-top #main-navigation .main-menu > ul > li.current > a {color:#E2785D;}
@@ -564,7 +564,7 @@ body.full-menu-open #main-content:after{opacity:1;visibility:visible}
 }
 
 /* TOPBAR */
-#topbar {position: fixed;z-index: 200; top: 0;width: 100%; border-bottom: 1px solid rgba(0,0,0,1);height: 45px;line-height: 44px; -webkit-transition: all .4s ease-in-out;-moz-transition: all .4s ease-in-out;transition: all .4s ease-in-out;font-family: "Open Sans",arial;}
+#topbar {position: fixed;z-index: 200; top: 0;width: 100%; border-bottom: 1px solid rgba(0,0,0,0.1);height: 45px;line-height: 44px; -webkit-transition: all .4s ease-in-out;-moz-transition: all .4s ease-in-out;transition: all .4s ease-in-out;font-family: "Open Sans",arial;}
 #topbar .topbar-left, #topbar .topbar-left > div {float: left;}
 #topbar .topbar-right {float: right;}
 #topbar .topbar-right > div {float: left;}
